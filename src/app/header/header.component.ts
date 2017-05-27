@@ -8,8 +8,5 @@ import {Component,EventEmitter,Output} from "@angular/core";
   "templateUrl":"./header.component.html"
 })
 export class HeaderComponent{
-  @Output() itemLoaded = new EventEmitter();
-  getLoadedItem(value){
-    this.itemLoaded.emit(value);
-  }
+x
 }
